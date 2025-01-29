@@ -28,4 +28,4 @@ print(paratan_ossz)
 
 #számok abszolút értéke 3-(-3)-ig
 for x in range(3, -4, -1):
-    print(f"|{x}| = {abs(x)}")
+    print(f"|{x:>2}| = {abs(x)}")
